@@ -11,6 +11,10 @@
             ContentTemplate="{DataTemplate local:MainPage}"
             Route="MainPage" />
         <ShellContent
+            Title="Akcelerometr"
+            ContentTemplate="{DataTemplate local:Accelerometer}"
+            Route="Accelerometer" />
+        <ShellContent
             Title="GPS"
             ContentTemplate="{DataTemplate local:GPS}"
             Route="GPS" />
